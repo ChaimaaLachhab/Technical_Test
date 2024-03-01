@@ -1,87 +1,70 @@
-/* Reset CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
-/* Couleurs */
 body {
     background-color: #fff;
-    color: #333;
-    font-family: Arial;
-}
-
-a {
     color: #000000;
-    text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-/* Header */
 header {
     background-color: #ffffff;
-    padding: 10px 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
 }
 
-header img {
-    width: 500px;
+.connexion h2{
+    font-size: 1em;
+    margin-left: 4%;
 }
 
-header .connexion {
-    float: right;
+.connexion button{
     background-color: #007bff;
     color: #fff;
-    padding: 0px px;
+    padding: 5px 10px;
     border: 1px solid #007bff;
     border-radius: 5px;
     font-size: 1em;
-    cursor: pointer;
+    margin-right: 4%;
 }
 
-header .connexion a {
-    color: #ffffff;
-    padding: 10px;
-    border: 1px solid #007bff;
-    background-color: #007bff;
-    border-radius: 10px;
-}
-
-header .connexion a:hover {
-    background-color: #007bff;
+.connexion button:hover {
+    background-color: #f2f4f7;
     color: #007bff;
 }
 
-/* Hero */
-.hero {
+.section_1 {
     background-image: url(PICTURE/PPPPPPPPO.jpg);
-    padding: 250px 350px;
+    padding: 150px 250px;
     text-align: center;
 }
 
-.hero h1 {
+.section_1 h1 {
     font-size: 2em;
-    font-family: Arial;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5%;
     margin-bottom: 40px;
+    color: #ffffff;
 }
 
-
-.hero input {
+.section_1 input {
     padding: 10px 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1em;
 }
 
-.hero button {
+.section_1 button {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -91,48 +74,63 @@ header .connexion a:hover {
     cursor: pointer;
 }
 
-.hero button:hover {
-    background-color: #fff;
+.section_1 button:hover {
+    background-color: #f2f4f7;
+    color: #007bff;
 }
 
-.avantages{
+.section_2{
     column-count: 3;
-    padding: 10%;
+    padding: 4%;
     text-align: center;
     column-width: 50px;
-    column-gap: 50px;
+    column-gap: 40px;
+}
 
+.section_2 h2{
+    font-size: larger;
+    padding-bottom: 3%;
 }
+
 .img2{
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
+    padding-bottom: 8%;
 }
-h1{
-    color: white;
-}
-div .connexion{
-    float: right;
-    background-color: #007bff;
-    color: #fff;
-    padding: 0px px;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
+
+.titre{
+    font-size: 1;
 }
 
 footer{
     background-color: #1E2944;
-    padding: 60px;
 }
 
-.p1{
+footer .icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 40% 0%;
+}
+
+footer .icon{
+    width: 10%;
+    height: 10%;
+}
+
+footer .p{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
     color: #ffffff;
-    display:inline;
+    padding: 2% 30% 2%;
 }
 
+footer .p:hover{
 
-.copy{
+}
+
+footer .copy{
     color: #ffffff;
     text-align: center;
+    padding-bottom: 1%;
 }
