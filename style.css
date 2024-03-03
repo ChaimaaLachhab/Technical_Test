@@ -103,7 +103,7 @@ header {
 }
 
 footer{
-    background-color: #1E2944;
+    background-color: #335275;
 }
 
 footer .icons{
@@ -125,9 +125,11 @@ footer .p{
     padding: 2% 30% 2%;
 }
 
-footer .p:hover{
-
-}
+.hover-effect:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
 
 footer .copy{
     color: #ffffff;
