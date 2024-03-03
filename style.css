@@ -45,7 +45,7 @@ header {
 
 .section_1 {
     background-image: url(PICTURE/PPPPPPPPO.jpg);
-    padding: 150px 250px;
+    padding: 150px 200px;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ header {
 }
 
 .section_1 input {
-    padding: 10px 20px;
+    padding: 10px 160px 10px 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1em;
@@ -103,7 +103,7 @@ header {
 }
 
 footer{
-    background-color: #335275;
+    background-color: #ffffff;
 }
 
 footer .icons{
@@ -121,7 +121,7 @@ footer .p{
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    color: #ffffff;
+    color: #686A6F;
     padding: 2% 30% 2%;
 }
 
@@ -132,7 +132,7 @@ footer .p{
   
 
 footer .copy{
-    color: #ffffff;
+    color: #686A6F;
     text-align: center;
     padding-bottom: 1%;
 }
